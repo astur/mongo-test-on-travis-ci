@@ -23,5 +23,8 @@
   "keywords": [
     "mongo-test-on-travis-ci"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^3.0.2"
+  }
 }
