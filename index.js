@@ -7,7 +7,7 @@ module.exports = mongo.connect(mongoString)
         if('databaseName' in client){
             return client;
         }
-        const db = client.db('test');
+        const db = client.db(mongoString.split('/').pop());
         db.close = client.close.bind(client);
         return db;
     })
