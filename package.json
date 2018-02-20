@@ -25,6 +25,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "mongodb": "^3.0.2"
+    "mongodb": "^2.2.33"
   }
 }
